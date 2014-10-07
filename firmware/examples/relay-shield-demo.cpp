@@ -1,5 +1,5 @@
 // This #include statement was automatically added by the Spark IDE.
-#include "relay-lib-library/relay-lib.h"
+#include "relay-lib/relay-lib.h"
 
 #define RELAY1_PIN D0
 #define RELAY2_PIN D1

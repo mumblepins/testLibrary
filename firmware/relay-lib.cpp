@@ -86,7 +86,7 @@ int RelayLib::state()
 }
 
 // If the relay is on, returns true, otherwise returns false
-int RelayLib::isRelayOn()
+bool RelayLib::isRelayOn()
 {
   if (relayState==HIGH)
     return true;
@@ -95,7 +95,7 @@ int RelayLib::isRelayOn()
 }
 
 // If the relay is off, returns true, otherwise returns false
-int RelayLib::isRelayOff()
+bool RelayLib::isRelayOff()
 {
   if (relayState==LOW)
     return true;
